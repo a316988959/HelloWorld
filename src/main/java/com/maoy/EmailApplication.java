@@ -1,16 +1,1 @@
-package com.maoy;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class EmailApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(EmailApplication.class, args);
-        System.out.println(1);
-        System.out.println(2);
-        System.out.println(3);
-    }
-
-}
+package com.maoy;import org.springframework.boot.SpringApplication;import org.springframework.boot.autoconfigure.SpringBootApplication;@SpringBootApplicationpublic class EmailApplication {    public static void main(String[] args) {        SpringApplication.run(EmailApplication.class, args);        System.out.println(1);        System.out.println(2);    }}
